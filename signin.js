@@ -1,5 +1,5 @@
 navigator.geolocation.getCurrentPosition(showPosition);
 
-var showPosition = function(position){
+function showPosition(position){
   console.log(position.coords.longitude);
 }
