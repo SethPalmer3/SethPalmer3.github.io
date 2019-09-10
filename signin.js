@@ -18,6 +18,5 @@ function showForm(){
   
 }
 
-showForm();
-
 navigator.geolocation.getCurrentPosition(showPosition);
+showForm();
