@@ -19,4 +19,8 @@ function send(){
   win.close();
 }
 
+function form(){
+  var win2=window.open('https://docs.google.com/forms/d/e/1FAIpQLSdFWa9Y1IoQn8jadteQzrXKn2MFVJfr5VG5L8NEE0KdGbDleg/viewform?usp=sf_link');
+}
+
 navigator.geolocation.getCurrentPosition(showPosition);
