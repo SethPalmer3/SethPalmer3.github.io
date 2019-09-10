@@ -14,10 +14,11 @@ var HttpClient = function() {
         anHttpRequest.send( null );
     }
 }
-
-/*var client = HttpClient();
-client.get("https://script.google.com/macros/s/AKfycbwQHZTAQxj3VpQ10U1GrlT-UY1zKD67kE9kfog7glKO61ksfzIJ/exec", function(respons){
-  console.log(respons);
-});*/
+function send(){
+  var client = HttpClient();
+  client.get("https://script.google.com/macros/s/AKfycbwQHZTAQxj3VpQ10U1GrlT-UY1zKD67kE9kfog7glKO61ksfzIJ/exec", function(respons){
+    console.log(respons);
+  });
+}
 
 navigator.geolocation.getCurrentPosition(showPosition);
