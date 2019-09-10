@@ -15,7 +15,7 @@ var HttpClient = function() {
     }
 }
 function send(){
-  xhr.open("POST", url, true);
+  xhr.open("POST", 'https://script.google.com/macros/s/AKfycbwAi2yZEWJQeGJMYXlP729X9Xop4CDSeG-V-cn5vePh_GWjeNmC/exec', true);
   xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
   xhr.send("hello");
 }
