@@ -8,6 +8,7 @@ function showPosition(position){
   console.log(position.coords.latitude);
   long = position.coords.longitude;
   lat = position.coords.latitude;
+  showForm();
 }
 
 function showForm(){
@@ -19,4 +20,3 @@ function showForm(){
 }
 
 navigator.geolocation.getCurrentPosition(showPosition);
-showForm();
