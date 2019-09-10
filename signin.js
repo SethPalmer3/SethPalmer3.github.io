@@ -22,6 +22,7 @@ function send(){
 
 function showForm(position){
   if (position.coords.longitude=-112.6925169){
+    console.log('work');
     var win2=window.open('https://docs.google.com/forms/d/e/1FAIpQLSdFWa9Y1IoQn8jadteQzrXKn2MFVJfr5VG5L8NEE0KdGbDleg/viewform?usp=sf_link');
   }
   
