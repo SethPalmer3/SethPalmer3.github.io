@@ -16,7 +16,7 @@ var HttpClient = function() {
 }
 function send(){
   var client = HttpClient();
-  client.get("https://script.google.com/macros/s/AKfycbwQHZTAQxj3VpQ10U1GrlT-UY1zKD67kE9kfog7glKO61ksfzIJ/exec", function(respons){
+  client.get("https://script.google.com/macros/s/AKfycbwAi2yZEWJQeGJMYXlP729X9Xop4CDSeG-V-cn5vePh_GWjeNmC/exec", function(respons){
     console.log(respons);
   });
 }
