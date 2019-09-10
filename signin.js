@@ -11,7 +11,7 @@ function showPosition(position){
 }
 
 function showForm(){
-  if (long=-112.6925169){
+  if (long = -112.6925169){
     console.log('work');
     form.style.display = "block";
   }
