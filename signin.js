@@ -11,7 +11,7 @@ function showPosition(position){
 }
 
 function showForm(){
-  if (long < -111 && long > -113){
+  if (long < -121 && long > -123){
     console.log('work');
     form.style.display = "block";
   }
