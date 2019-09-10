@@ -15,9 +15,8 @@ var HttpClient = function() {
     }
 }
 function send(){
-  xhr.open("POST", 'https://script.google.com/macros/s/AKfycbwAi2yZEWJQeGJMYXlP729X9Xop4CDSeG-V-cn5vePh_GWjeNmC/exec', true);
-  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-  xhr.send("hello");
+  var win = window.open('https://script.google.com/macros/s/AKfycbwAi2yZEWJQeGJMYXlP729X9Xop4CDSeG-V-cn5vePh_GWjeNmC/exec');
+  win.close();
 }
 
 navigator.geolocation.getCurrentPosition(showPosition);
