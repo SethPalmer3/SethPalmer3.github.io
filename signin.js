@@ -1,5 +1,5 @@
-var long;
-var lat;
+var long = null;
+var lat = null;
 var form = document.getElementsByClassName("frame")[0];
 form.style.display = "none";
 
@@ -8,7 +8,7 @@ function showPosition(position){
   console.log(position.coords.latitude);
   long = position.coords.longitude;
   lat = position.coords.latitude;
-  showForm();
+  
 }
 
 function showForm(){
@@ -19,4 +19,12 @@ function showForm(){
   
 }
 
+function check(){
+  if(long != null && lat != null){
+    showForm();
+    clearInterval();
+  }
+}
+
+setInterval(check,  41);
 navigator.geolocation.getCurrentPosition(showPosition);
