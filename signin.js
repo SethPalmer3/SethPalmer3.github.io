@@ -3,7 +3,7 @@ var lat = null;
 var form = document.getElementsByClassName("frame")[0];
 form.style.display = "none";
 
-function showPosition(position){
+function setPosition(position){
   console.log(position.coords.longitude);
   console.log(position.coords.latitude);
   long = position.coords.longitude;
@@ -27,4 +27,4 @@ function check(){
 }
 
  var inter = setInterval(check,  41);
-navigator.geolocation.getCurrentPosition(showPosition);
+navigator.geolocation.getCurrentPosition(setPosition);
