@@ -12,9 +12,10 @@ function showPosition(position){
 }
 
 function showForm(){
-  if (long < -121 && long > -123){
+  if (long < -122.688639 && long > -122.690849 && lat > 45.475977 && lat < 45.478369){
     console.log('work');
     form.style.display = "block";
+    clearInterval(inter);
   }
   
 }
@@ -22,9 +23,8 @@ function showForm(){
 function check(){
   if(long != null && lat != null){
     showForm();
-    clearInterval();
   }
 }
 
-setInterval(check,  41);
+ var inter = setInterval(check,  41);
 navigator.geolocation.getCurrentPosition(showPosition);
