@@ -14,7 +14,7 @@ function setPosition(position){
 function showForm(){
   if (long < -122.688639 && long > -122.690849 && lat > 45.475977 && lat < 45.478369){
     console.log('work');
-    form.style.display = "block";
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdFWa9Y1IoQn8jadteQzrXKn2MFVJfr5VG5L8NEE0KdGbDleg/viewform?usp=sf_link');
     clearInterval(inter);
   }
   
