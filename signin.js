@@ -21,7 +21,9 @@ function showForm(){
 }
 
 function check(){
-    showForm();
+    if(long != null && lat != null){
+      showForm();
+    }
 }
 
  var inter = setInterval(check,  41);
