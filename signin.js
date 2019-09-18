@@ -21,8 +21,10 @@ function showForm(){
 }
 
 function check(){
-  if(-122.70<long> -122.68 && 45.48 <lat > 45.46){
+  if(-122.70<long> -122.68){
+    if(45.48 <lat > 45.46){
     showForm();
+    }
   }
 }
 
