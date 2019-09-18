@@ -21,7 +21,7 @@ function showForm(){
 }
 
 function check(){
-  if(long != null && lat != null){
+  if(long < -122.70, && long > -122.68, lat < 45.48,  && lat >45.46{
     showForm();
   }
 }
