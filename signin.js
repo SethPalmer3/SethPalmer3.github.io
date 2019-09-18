@@ -14,7 +14,7 @@ function setPosition(position){
 function showForm(){
   if (true){
     console.log('work');
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdFWa9Y1IoQn8jadteQzrXKn2MFVJfr5VG5L8NEE0KdGbDleg/viewform?usp=sf_link');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSdEUg_LsLy6b8AG3HO_ImFCMbtYV6kd5qQ4qTKtYITUxFc-GA/viewform?usp=sf_link');
     clearInterval(inter);
   }
   
