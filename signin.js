@@ -21,11 +21,7 @@ function showForm(){
 }
 
 function check(){
-  if(-123<long && long> -121){
-    if(44 <lat && lat > 46){
     showForm();
-    }
-  }
 }
 
  var inter = setInterval(check,  41);
